@@ -1,12 +1,13 @@
 import turtle
 
 wn = turtle.Screen()
+wn.bgcolor("orange")
 
 graphic=turtle.Turtle()
 
 
-graphic.shape('arrow')
-graphic.color('black')
+graphic.shape('classic')
+graphic.color('white')
 
 head = 5
 
@@ -29,9 +30,11 @@ graphic.forward(50)
 
 
 s=turtle.Turtle()
-s.shape('arrow')
+s.shape('circle')
 s.color('blue')
+
 s.penup()
+
 
 s.setposition(200,120)
 s.pendown()
